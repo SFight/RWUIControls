@@ -1,0 +1,540 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		E7F251971D13C54C00342076 /* Framework */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = E7F251981D13C54C00342076 /* Build configuration list for PBXAggregateTarget "Framework" */;
+			buildPhases = (
+				E7F2519B1D13C57400342076 /* MultiPlatform Build */,
+			);
+			dependencies = (
+				E7F251B01D13D08200342076 /* PBXTargetDependency */,
+				E7F2519D1D13CCB100342076 /* PBXTargetDependency */,
+			);
+			name = Framework;
+			productName = Framework;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		E7F251501D13A41900342076 /* RWUIControls.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = E7F2514F1D13A41900342076 /* RWUIControls.h */; };
+		E7F2515A1D13A48B00342076 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E7F251591D13A48B00342076 /* UIKit.framework */; };
+		E7F2515C1D13A4E000342076 /* RWUIControls.h in Headers */ = {isa = PBXBuildFile; fileRef = E7F2514F1D13A41900342076 /* RWUIControls.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E7F251641D13A50D00342076 /* RWKnobControl.h in Headers */ = {isa = PBXBuildFile; fileRef = E7F2515E1D13A50D00342076 /* RWKnobControl.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E7F251651D13A50D00342076 /* RWKnobControl.m in Sources */ = {isa = PBXBuildFile; fileRef = E7F2515F1D13A50D00342076 /* RWKnobControl.m */; };
+		E7F251661D13A50D00342076 /* RWKnobRenderer.h in Headers */ = {isa = PBXBuildFile; fileRef = E7F251601D13A50D00342076 /* RWKnobRenderer.h */; };
+		E7F251671D13A50D00342076 /* RWKnobRenderer.m in Sources */ = {isa = PBXBuildFile; fileRef = E7F251611D13A50D00342076 /* RWKnobRenderer.m */; };
+		E7F251681D13A50D00342076 /* RWRotationGestureRecognizer.h in Headers */ = {isa = PBXBuildFile; fileRef = E7F251621D13A50D00342076 /* RWRotationGestureRecognizer.h */; };
+		E7F251691D13A50D00342076 /* RWRotationGestureRecognizer.m in Sources */ = {isa = PBXBuildFile; fileRef = E7F251631D13A50D00342076 /* RWRotationGestureRecognizer.m */; };
+		E7F251BD1D13D18A00342076 /* RWRibbonView.m in Sources */ = {isa = PBXBuildFile; fileRef = E7F251BB1D13D18A00342076 /* RWRibbonView.m */; };
+		E7F251BE1D13D22400342076 /* RWRibbon.png in Resources */ = {isa = PBXBuildFile; fileRef = E7F251B81D13D18A00342076 /* RWRibbon.png */; };
+		E7F251BF1D13D22800342076 /* RWRibbon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E7F251B91D13D18A00342076 /* RWRibbon@2x.png */; };
+		E7F251C01D13D70D00342076 /* RWRibbonView.h in Headers */ = {isa = PBXBuildFile; fileRef = E7F251BA1D13D18A00342076 /* RWRibbonView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E7F2519C1D13CCB100342076 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E7F251441D13A41900342076 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E7F2514B1D13A41900342076;
+			remoteInfo = RWUIControls;
+		};
+		E7F251AF1D13D08200342076 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E7F251441D13A41900342076 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E7F251A81D13CFDD00342076;
+			remoteInfo = RWUIControlsResources;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		E7F2514A1D13A41900342076 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				E7F251501D13A41900342076 /* RWUIControls.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		E7F2514C1D13A41900342076 /* libRWUIControls.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libRWUIControls.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		E7F2514F1D13A41900342076 /* RWUIControls.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RWUIControls.h; sourceTree = "<group>"; };
+		E7F251591D13A48B00342076 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		E7F2515E1D13A50D00342076 /* RWKnobControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RWKnobControl.h; sourceTree = "<group>"; };
+		E7F2515F1D13A50D00342076 /* RWKnobControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RWKnobControl.m; sourceTree = "<group>"; };
+		E7F251601D13A50D00342076 /* RWKnobRenderer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RWKnobRenderer.h; sourceTree = "<group>"; };
+		E7F251611D13A50D00342076 /* RWKnobRenderer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RWKnobRenderer.m; sourceTree = "<group>"; };
+		E7F251621D13A50D00342076 /* RWRotationGestureRecognizer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RWRotationGestureRecognizer.h; sourceTree = "<group>"; };
+		E7F251631D13A50D00342076 /* RWRotationGestureRecognizer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RWRotationGestureRecognizer.m; sourceTree = "<group>"; };
+		E7F251A91D13CFDD00342076 /* RWUIControls.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RWUIControls.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		E7F251AB1D13CFDD00342076 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E7F251B81D13D18A00342076 /* RWRibbon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = RWRibbon.png; sourceTree = "<group>"; };
+		E7F251B91D13D18A00342076 /* RWRibbon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "RWRibbon@2x.png"; sourceTree = "<group>"; };
+		E7F251BA1D13D18A00342076 /* RWRibbonView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RWRibbonView.h; sourceTree = "<group>"; };
+		E7F251BB1D13D18A00342076 /* RWRibbonView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RWRibbonView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E7F251491D13A41900342076 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E7F2515A1D13A48B00342076 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E7F251A61D13CFDD00342076 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E7F251431D13A41900342076 = {
+			isa = PBXGroup;
+			children = (
+				E7F251AA1D13CFDD00342076 /* RWUIControlsResources */,
+				E7F251581D13A47C00342076 /* Frameworks */,
+				E7F2514E1D13A41900342076 /* RWUIControls */,
+				E7F2514D1D13A41900342076 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E7F2514D1D13A41900342076 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E7F2514C1D13A41900342076 /* libRWUIControls.a */,
+				E7F251A91D13CFDD00342076 /* RWUIControls.bundle */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E7F2514E1D13A41900342076 /* RWUIControls */ = {
+			isa = PBXGroup;
+			children = (
+				E7F251B71D13D18A00342076 /* RWRibbon */,
+				E7F2515D1D13A50D00342076 /* RWKnobControl */,
+				E7F2514F1D13A41900342076 /* RWUIControls.h */,
+			);
+			path = RWUIControls;
+			sourceTree = "<group>";
+		};
+		E7F251581D13A47C00342076 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E7F251591D13A48B00342076 /* UIKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E7F2515D1D13A50D00342076 /* RWKnobControl */ = {
+			isa = PBXGroup;
+			children = (
+				E7F2515E1D13A50D00342076 /* RWKnobControl.h */,
+				E7F2515F1D13A50D00342076 /* RWKnobControl.m */,
+				E7F251601D13A50D00342076 /* RWKnobRenderer.h */,
+				E7F251611D13A50D00342076 /* RWKnobRenderer.m */,
+				E7F251621D13A50D00342076 /* RWRotationGestureRecognizer.h */,
+				E7F251631D13A50D00342076 /* RWRotationGestureRecognizer.m */,
+			);
+			path = RWKnobControl;
+			sourceTree = "<group>";
+		};
+		E7F251AA1D13CFDD00342076 /* RWUIControlsResources */ = {
+			isa = PBXGroup;
+			children = (
+				E7F251AB1D13CFDD00342076 /* Info.plist */,
+			);
+			path = RWUIControlsResources;
+			sourceTree = "<group>";
+		};
+		E7F251B71D13D18A00342076 /* RWRibbon */ = {
+			isa = PBXGroup;
+			children = (
+				E7F251B81D13D18A00342076 /* RWRibbon.png */,
+				E7F251B91D13D18A00342076 /* RWRibbon@2x.png */,
+				E7F251BA1D13D18A00342076 /* RWRibbonView.h */,
+				E7F251BB1D13D18A00342076 /* RWRibbonView.m */,
+			);
+			path = RWRibbon;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		E7F2515B1D13A4C200342076 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E7F251C01D13D70D00342076 /* RWRibbonView.h in Headers */,
+				E7F2515C1D13A4E000342076 /* RWUIControls.h in Headers */,
+				E7F251641D13A50D00342076 /* RWKnobControl.h in Headers */,
+				E7F251661D13A50D00342076 /* RWKnobRenderer.h in Headers */,
+				E7F251681D13A50D00342076 /* RWRotationGestureRecognizer.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		E7F2514B1D13A41900342076 /* RWUIControls */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E7F251551D13A41900342076 /* Build configuration list for PBXNativeTarget "RWUIControls" */;
+			buildPhases = (
+				E7F251481D13A41900342076 /* Sources */,
+				E7F251491D13A41900342076 /* Frameworks */,
+				E7F2514A1D13A41900342076 /* CopyFiles */,
+				E7F2515B1D13A4C200342076 /* Headers */,
+				E7F251961D13C3F200342076 /* Build Framework */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RWUIControls;
+			productName = RWUIControls;
+			productReference = E7F2514C1D13A41900342076 /* libRWUIControls.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		E7F251A81D13CFDD00342076 /* RWUIControlsResources */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E7F251AC1D13CFDD00342076 /* Build configuration list for PBXNativeTarget "RWUIControlsResources" */;
+			buildPhases = (
+				E7F251A51D13CFDD00342076 /* Sources */,
+				E7F251A61D13CFDD00342076 /* Frameworks */,
+				E7F251A71D13CFDD00342076 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RWUIControlsResources;
+			productName = RWUIControlsResources;
+			productReference = E7F251A91D13CFDD00342076 /* RWUIControls.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E7F251441D13A41900342076 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = SongJinJie;
+				TargetAttributes = {
+					E7F2514B1D13A41900342076 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					E7F251971D13C54C00342076 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					E7F251A81D13CFDD00342076 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = E7F251471D13A41900342076 /* Build configuration list for PBXProject "RWUIControls" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = E7F251431D13A41900342076;
+			productRefGroup = E7F2514D1D13A41900342076 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E7F2514B1D13A41900342076 /* RWUIControls */,
+				E7F251971D13C54C00342076 /* Framework */,
+				E7F251A81D13CFDD00342076 /* RWUIControlsResources */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E7F251A71D13CFDD00342076 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E7F251BE1D13D22400342076 /* RWRibbon.png in Resources */,
+				E7F251BF1D13D22800342076 /* RWRibbon@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		E7F251961D13C3F200342076 /* Build Framework */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Build Framework";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e\n\nexport FRAMEWORK_LOCN=\"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.framework\"\n\n# Create the path to the real Headers die\nmkdir -p \"${FRAMEWORK_LOCN}/Versions/A/Headers\"\n\n# Create the required symlinks\n/bin/ln -sfh A \"${FRAMEWORK_LOCN}/Versions/Current\"\n/bin/ln -sfh Versions/Current/Headers \"${FRAMEWORK_LOCN}/Headers\"\n/bin/ln -sfh \"Versions/Current/${PRODUCT_NAME}\" \\\n\"${FRAMEWORK_LOCN}/${PRODUCT_NAME}\"\n\n# Copy the public headers into the framework\n/bin/cp -a \"${TARGET_BUILD_DIR}/${PUBLIC_HEADERS_FOLDER_PATH}/\" \\\n\"${FRAMEWORK_LOCN}/Versions/A/Headers\"\n\n";
+		};
+		E7F2519B1D13C57400342076 /* MultiPlatform Build */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "MultiPlatform Build";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e\n\n# If we're already inside this script then die\nif [ -n \"$RW_MULTIPLATFORM_BUILD_IN_PROGRESS\" ]; then\nexit 0\nfi\nexport RW_MULTIPLATFORM_BUILD_IN_PROGRESS=1\n\nRW_FRAMEWORK_NAME=${PROJECT_NAME}\nRW_INPUT_STATIC_LIB=\"lib${PROJECT_NAME}.a\"\nRW_FRAMEWORK_LOCATION=\"${BUILT_PRODUCTS_DIR}/${RW_FRAMEWORK_NAME}.framework\"\n\nfunction build_static_library {\n    # Will rebuild the static library as specified\n    #     build_static_library sdk\n    xcrun xcodebuild -project \"${PROJECT_FILE_PATH}\" \\\n    -target \"${TARGET_NAME}\" \\\n    -configuration \"${CONFIGURATION}\" \\\n    -sdk \"${1}\" \\\n    ONLY_ACTIVE_ARCH=NO \\\n    BUILD_DIR=\"${BUILD_DIR}\" \\\n    OBJROOT=\"${OBJROOT}\" \\\n    BUILD_ROOT=\"${BUILD_ROOT}\" \\\n    SYMROOT=\"${SYMROOT}\" $ACTION\n}\n\nfunction make_fat_library {\n    # Will smash 2 static libs together\n    #     make_fat_library in1 in2 out\n    xcrun lipo -create \"${1}\" \"${2}\" -output \"${3}\"\n}\n\n# 1 - Extract the platform (iphoneos/iphonesimulator) from the SDK name\nif [[ \"$SDK_NAME\" =~ ([A-Za-z]+) ]]; then\nRW_SDK_PLATFORM=${BASH_REMATCH[1]}\nelse\necho \"Could not find platform name from SDK_NAME: $SDK_NAME\"\nexit 1\nfi\n\n# 2 - Extract the version from the SDK\nif [[ \"$SDK_NAME\" =~ ([0-9]+.*$) ]]; then\nRW_SDK_VERSION=${BASH_REMATCH[1]}\nelse\necho \"Could not find sdk version from SDK_NAME: $SDK_NAME\"\nexit 1\nfi\n\n# 3 - Determine the other platform\nif [ \"$RW_SDK_PLATFORM\" == \"iphoneos\" ]; then\nRW_OTHER_PLATFORM=iphonesimulator\nelse\nRW_OTHER_PLATFORM=iphoneos\nfi\n\n# 4 - Find the build directory\nif [[ \"$BUILT_PRODUCTS_DIR\" =~ (.*)$RW_SDK_PLATFORM$ ]]; then\nRW_OTHER_BUILT_PRODUCTS_DIR=\"${BASH_REMATCH[1]}${RW_OTHER_PLATFORM}\"\nelse\necho \"Could not find other platform build directory.\"\nexit 1\nfi\n\n# Build the other platform.\nbuild_static_library \"${RW_OTHER_PLATFORM}${RW_SDK_VERSION}\"\n\n# If we're currently building for iphonesimulator, then need to rebuild\n#   to ensure that we get both i386 and x86_64\nif [ \"$RW_SDK_PLATFORM\" == \"iphonesimulator\" ]; then\nbuild_static_library \"${SDK_NAME}\"\nfi\n\n# Join the 2 static libs into 1 and push into the .framework\nmake_fat_library \"${BUILT_PRODUCTS_DIR}/${RW_INPUT_STATIC_LIB}\" \\\n\"${RW_OTHER_BUILT_PRODUCTS_DIR}/${RW_INPUT_STATIC_LIB}\" \\\n\"${RW_FRAMEWORK_LOCATION}/Versions/A/${RW_FRAMEWORK_NAME}\"\n\n# Ensure that the framework is present in both platform's build directories\ncp -a \"${RW_FRAMEWORK_LOCATION}/Versions/A/${RW_FRAMEWORK_NAME}\" \\\n\"${RW_OTHER_BUILT_PRODUCTS_DIR}/${RW_FRAMEWORK_NAME}.framework/Versions/A/${RW_FRAMEWORK_NAME}\"\n\n# Copy the framework to the user's desktop\nditto \"${RW_FRAMEWORK_LOCATION}\" \"${HOME}/Desktop/${RW_FRAMEWORK_NAME}.framework\"\n\n# Copy the resources bundle to the user's desktop\nditto \"${BUILT_PRODUCTS_DIR}/${RW_FRAMEWORK_NAME}.bundle\" \\\n\"${HOME}/Desktop/${RW_FRAMEWORK_NAME}.bundle\"";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E7F251481D13A41900342076 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E7F251651D13A50D00342076 /* RWKnobControl.m in Sources */,
+				E7F251BD1D13D18A00342076 /* RWRibbonView.m in Sources */,
+				E7F251691D13A50D00342076 /* RWRotationGestureRecognizer.m in Sources */,
+				E7F251671D13A50D00342076 /* RWKnobRenderer.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E7F251A51D13CFDD00342076 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E7F2519D1D13CCB100342076 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E7F2514B1D13A41900342076 /* RWUIControls */;
+			targetProxy = E7F2519C1D13CCB100342076 /* PBXContainerItemProxy */;
+		};
+		E7F251B01D13D08200342076 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E7F251A81D13CFDD00342076 /* RWUIControlsResources */;
+			targetProxy = E7F251AF1D13D08200342076 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		E7F251531D13A41900342076 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		E7F251541D13A41900342076 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E7F251561D13A41900342076 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEAD_CODE_STRIPPING = NO;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "include/$(PROJECT_NAME)";
+				SKIP_INSTALL = YES;
+				STRIP_STYLE = "non-global";
+			};
+			name = Debug;
+		};
+		E7F251571D13A41900342076 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEAD_CODE_STRIPPING = NO;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "include/$(PROJECT_NAME)";
+				SKIP_INSTALL = YES;
+				STRIP_STYLE = "non-global";
+			};
+			name = Release;
+		};
+		E7F251991D13C54C00342076 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		E7F2519A1D13C54C00342076 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		E7F251AD1D13CFDD00342076 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = NO;
+				INFOPLIST_FILE = RWUIControlsResources/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sjj.RWUIControlsResources;
+				PRODUCT_NAME = RWUIControls;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		E7F251AE1D13CFDD00342076 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = NO;
+				INFOPLIST_FILE = RWUIControlsResources/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sjj.RWUIControlsResources;
+				PRODUCT_NAME = RWUIControls;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E7F251471D13A41900342076 /* Build configuration list for PBXProject "RWUIControls" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E7F251531D13A41900342076 /* Debug */,
+				E7F251541D13A41900342076 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E7F251551D13A41900342076 /* Build configuration list for PBXNativeTarget "RWUIControls" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E7F251561D13A41900342076 /* Debug */,
+				E7F251571D13A41900342076 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E7F251981D13C54C00342076 /* Build configuration list for PBXAggregateTarget "Framework" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E7F251991D13C54C00342076 /* Debug */,
+				E7F2519A1D13C54C00342076 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		E7F251AC1D13CFDD00342076 /* Build configuration list for PBXNativeTarget "RWUIControlsResources" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E7F251AD1D13CFDD00342076 /* Debug */,
+				E7F251AE1D13CFDD00342076 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E7F251441D13A41900342076 /* Project object */;
+}
